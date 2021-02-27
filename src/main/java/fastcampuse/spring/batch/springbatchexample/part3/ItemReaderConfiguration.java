@@ -51,7 +51,7 @@ public class ItemReaderConfiguration {
         List<Person> items = new ArrayList<>();
 
         for (int i = 0; i < 10; i++) {
-            items.add(new Person(i + 1, "test name" + i, "test age", "test address"));
+            items.add(new Person((long)i + 1, "test name" + i, "test age", "test address"));
         }
 
         return items;
