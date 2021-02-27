@@ -131,7 +131,7 @@ public class ItemWriterConfiguration {
         List<Person> items = new ArrayList<>();
 
         for (int i = 0; i < 100; i++) {
-            items.add(Person.builder().name(i + " name").age("test").address("test address").build());
+            items.add(Person.builder().name(i + " name").age("test1").address("test address").build());
         }
 
         return items;
